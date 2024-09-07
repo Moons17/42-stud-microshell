@@ -18,7 +18,7 @@ memo for dup & close
 		exec-fork :
 		
 			child :
-				execve
+				exec
 				
 			parent :
 				close  fd_tmp
@@ -31,7 +31,7 @@ memo for dup & close
 				dup2 fd[1] , 1
 				close fd[1]
 				close fd[0]
-				execve
+				exec
 				
 			parent :
 				close fd[1]
