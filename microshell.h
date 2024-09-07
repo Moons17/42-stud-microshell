@@ -23,7 +23,7 @@
 # define  ERR -1
 # define ERR_SYS "error: fatal"
 # define  ERR_CD_01 "error: cd: bad arguments"
-# define  ERR_CD_02 "error: cd: cannot change directory "
+# define  ERR_CD_02 "error: cd: cannot change directory to "
 # define  ERR_EXEC "error: cannot execute "
 
 #endif
